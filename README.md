@@ -1,1 +1,1 @@
-# hikendal.github.io
+# kendal.github.io
