@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 20/03/2019 02:18
+    Creation date: 21/03/2019 11:46
     */
 
     @font-face {
@@ -37,18 +37,16 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-ideas:before { content: "\f100"; }
-.flaticon-flasks:before { content: "\f101"; }
-.flaticon-analysis:before { content: "\f102"; }
-.flaticon-ux-design:before { content: "\f103"; }
-.flaticon-web-design:before { content: "\f104"; }
-.flaticon-idea:before { content: "\f105"; }
-.flaticon-innovation:before { content: "\f106"; }
+    .flaticon-reload:before { content: "\f100"; }
+.flaticon-download:before { content: "\f101"; }
+.flaticon-monitor:before { content: "\f102"; }
+.flaticon-chat:before { content: "\f103"; }
+.flaticon-glasses:before { content: "\f104"; }
+.flaticon-vector:before { content: "\f105"; }
     
-    $font-Flaticon-ideas: "\f100";
-    $font-Flaticon-flasks: "\f101";
-    $font-Flaticon-analysis: "\f102";
-    $font-Flaticon-ux-design: "\f103";
-    $font-Flaticon-web-design: "\f104";
-    $font-Flaticon-idea: "\f105";
-    $font-Flaticon-innovation: "\f106";
+    $font-Flaticon-reload: "\f100";
+    $font-Flaticon-download: "\f101";
+    $font-Flaticon-monitor: "\f102";
+    $font-Flaticon-chat: "\f103";
+    $font-Flaticon-glasses: "\f104";
+    $font-Flaticon-vector: "\f105";
