@@ -7,6 +7,7 @@
   <title>Bootstrap Visualization Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
@@ -34,7 +35,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
-              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item active" href="humidity.html">Humidity</a>
               <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
               <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
             </div>
@@ -56,16 +57,12 @@
       <div class="col-lg-7 col-md-12">
         <!-- Left box  -->
         <div class="box">
-          <h3 class="title">Summary: Latitude vs. X</h3>
+          <h3 class="title">Humidity</h3>
           <hr>
-          <img src="Resources/assets/images/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-            accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
-            500 cities.</p>
-          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
-            source data and visualizations created as part of the analysis, as well as explanations and descriptions of
-            any trends and correlations witnessed.</p>
+          <img src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
+          <p>Humidity does not show a strong correlation to latitude. The visualization shows a great variety of
+            humidity percentages at different latitudes. Therefore, we cannot conclude that there is a conclusive
+            pattern between humidity and latitude.</p>
         </div>
       </div>
       <div class="col-lg-5 col-md-12">
@@ -84,7 +81,7 @@
               </div>
               <div class="col-6">
                 <a href="humidity.html">
-                  <img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
+                  <img class="panel active" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
                 </a>
               </div>
             </div>
