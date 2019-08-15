@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["HI THERE", "MY PORTFOLIO IS ALMOST COMPLETE", "FOR NOW", "HERE ARE SOME LINKS", "ENJOY :)"],
+      strings: ["HI THERE", "MY PORTFOLIO IS ALMOST COMPLETE", "FOR NOW..", "HERE ARE SOME LINKS", "ENJOY :)"],
       typeSpeed: 100,
       loop: true,
     });
