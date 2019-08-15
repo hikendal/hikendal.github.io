@@ -11,7 +11,7 @@
  */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  
+
 }
 
 /** Width between 768px to 991px
@@ -117,7 +117,7 @@
   }
   /* About */
   .head-info .header-content h1 {
-    font-size: 32px;
+    font-size: 10px;
   }
   #about .div-img-bg {
     padding: 0;
@@ -188,7 +188,7 @@
   }
   /* About */
   .head-info .header-content h1 {
-    font-size: 32px;
+    font-size: 10px;
   }
   #about .div-img-bg {
     padding: 0;
@@ -259,7 +259,7 @@
   }
   /* About */
   .head-info .header-content h1 {
-    font-size: 32px;
+    font-size: 10px;
   }
   #about .div-img-bg {
     padding: 0;
@@ -329,7 +329,7 @@
   }
   /* About */
   .head-info .header-content h1 {
-    font-size: 32px;
+    font-size: 10px;
   }
   #about .div-img-bg {
     padding: 0;
