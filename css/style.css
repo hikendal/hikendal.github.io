@@ -1,6 +1,6 @@
 body {
   background: #ffffff;
-  color: #7e867a;
+  color: #c7c7bb;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -21,18 +21,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #7e867a;
+  color: #c7c7bb;
   font-weight: 600;
 }
 
 h4 {
-  color: #7e867a;
+  color: #c7c7bb;
   font-size: 14px;
   font-weight: 600;
 }
 
 a {
-  color: #7e867a;
+  color: #c7c7bb;
   text-decoration: none !important;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -50,7 +50,7 @@ a:hover {
 }
 
 a:hover, a:focus {
-  color: #c7c7bb;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -59,7 +59,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 12px;
-  color: #7e867a;
+  color: #fff;
   letter-spacing: 0.1em;
   font-weight: 500;
   line-height: 14px;
@@ -150,11 +150,11 @@ p {
 }
 
 .hvr-shutter-in-horizontal::before {
-  background: #333;
+  background: #bcbcbc;
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #7e867a;
 }
 
 .mb-30 {
@@ -163,7 +163,7 @@ p {
 
 
 #header {
-  background: url("../images/home-bg.jpg") repeat scroll center center / cover;
+  background: url("../images/home-bg4.jpg") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
 }
@@ -182,7 +182,7 @@ p {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #7e867a;
+  color: #c7c7bb;
 }
 
 .header-content p {
@@ -191,7 +191,7 @@ p {
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 7px;
-  color: #7e867a;
+  color: #fff;
   font-weight: 500;
 }
 
